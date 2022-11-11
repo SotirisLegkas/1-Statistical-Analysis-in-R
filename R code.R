@@ -3,7 +3,7 @@ library(sjmisc)
 library(psych)
 library(dplyr)
 
-salary <- read_sav("C:/Users/sotos/Desktop/Data Science/Elements Statistics and Probabaility/Assignment/salary.sav")
+salary <- read_sav("salary.sav")
 View(salary)
 
 gender=factor( salary$sex, labels=c('male', 'female'))
